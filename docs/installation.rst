@@ -23,6 +23,10 @@ repository. This makes it easy to update later::
    $ git clone https://github.com/debops/debops
    $ cd debops
 
+If you dont have ansible installed, use the bootstrap-ansible script:: 
+
+   $ ./misc/scripts/bootstrap-ansible.sh
+
 Choose, who you want DebOps to be installed:
 
 * System-wide into /usr/local::
